@@ -1,0 +1,8 @@
+setup.py
+OneClickPackage/__init__.py
+OneClickPackage.egg-info/PKG-INFO
+OneClickPackage.egg-info/SOURCES.txt
+OneClickPackage.egg-info/dependency_links.txt
+OneClickPackage.egg-info/requires.txt
+OneClickPackage.egg-info/top_level.txt
+src/oneclickpackage.py
