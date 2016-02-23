@@ -167,6 +167,8 @@ class Example(wx.Frame):
             dial1.ShowModal()
             return
         os.system('python setup.py sdist register upload')
+        dial2 = wx.MessageDialog(None, 'Package created successfully!', 'Success!', wx.OK)
+        dial2.ShowModal()
         self.tc.Clear()
         self.tc3.Clear()
         self.tc4.Clear()
@@ -175,8 +177,7 @@ class Example(wx.Frame):
         self.tc8.Clear()
         self.tc11.Clear()
         self.tc13.Clear()
-        dial2 = wx.MessageDialog(None, 'Package created successfully!', 'Success!', wx.OK)
-        dial2.ShowModal()
+        
 
 def makedirectories(name):
     try:
