@@ -14,13 +14,21 @@ The program supports taking upto 5 keywords you can specify to be included in yo
 The program currently uses wxPython for creating GUI based functionalities. 
 So, you will need to install wxPython for it to work. [Get it from here] (http://www.wxpython.org/download.php). 
 
+
+Note: This program has been created and tested for Windows.
 ##Installation
 
 ``` $ pip install OneClickPackage``` 
 
+
+Install wxPython too from [wxPython](http://www.wxpython.org/download.php).
+
 ##Sample Usage
 
 ![Run](https://github.com/DeveshAgrawal1/OneClickPackage-1.0/blob/master/screenshots/ss1.png)
+
+>After filling it:
+
 ![Package Created](https://github.com/DeveshAgrawal1/OneClickPackage-1.0/blob/master/screenshots/ss2.png)
 
 ###To Do:
